@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: 0604fd02ee39225419a470afc598af77
+  - enabled: 1
+    path: Assets/Rube Goldberg Scence.unity
+    guid: 00000000000000000000000000000000
