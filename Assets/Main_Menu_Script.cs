@@ -7,13 +7,18 @@ public class Main_Menu_Script : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        gameObject.SetActive(false);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene("Rube Goldberg Scence");
+
+    }
+
+    public void StartButton()
+    {
+        SceneManager.LoadScene(1); //Will load the Rube Goldberg scene
     }
            
 }
