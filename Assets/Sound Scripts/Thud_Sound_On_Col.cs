@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour {
+public class Thud_Sound : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
