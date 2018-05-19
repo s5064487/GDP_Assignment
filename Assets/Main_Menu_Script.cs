@@ -20,5 +20,4 @@ public class Main_Menu_Script : MonoBehaviour {
     {
         SceneManager.LoadScene(1); //Will load the Rube Goldberg scene
     }
-           
 }
