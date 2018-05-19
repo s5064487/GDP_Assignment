@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Start Menu.unity
     guid: 0604fd02ee39225419a470afc598af77
   - enabled: 1
     path: Assets/Rube Goldberg Scence.unity
+    guid: c605163adbc822c4eb3ecc060ffe1b3b
+  - enabled: 1
+    path: Assets/Quit+Reset Menu.unity
     guid: 00000000000000000000000000000000

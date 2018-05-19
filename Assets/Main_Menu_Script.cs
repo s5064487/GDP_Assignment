@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Main_Menu_Script : MonoBehaviour {
+public class Main_Menu_Script : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-        
+    // Use this for initialization
+    void Start() {
+
     }
 
     // Update is called once per frame
@@ -20,4 +21,14 @@ public class Main_Menu_Script : MonoBehaviour {
     {
         SceneManager.LoadScene(1); //Will load the Rube Goldberg scene
     }
-}
+
+    public void QuitButton()
+    {
+        Application.Quit(); //Will end the scene
+    }
+
+    public void ResetButton()
+    {
+        SceneManager.LoadScene(1); //Will load the Rube Goldberg scene
+    }
+}    
